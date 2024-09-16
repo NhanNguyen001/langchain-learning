@@ -12,6 +12,7 @@ pandas = "*"
 pyspark = "*"
 langchain-community = "*"
 langchainhub = "*"
+flask = "*"
 
 [dev-packages]
 
