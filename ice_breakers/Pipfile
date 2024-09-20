@@ -10,6 +10,8 @@ langchain-community = "*"
 langchainhub = "*"
 python-dotenv = "*"
 requests = "*"
+fastapi = "*"
+black = "*"
 
 [dev-packages]
 
