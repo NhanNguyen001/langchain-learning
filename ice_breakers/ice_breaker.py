@@ -1,7 +1,9 @@
+"""Module providing a function printing python version."""
+import os
+
 from dotenv import load_dotenv
 from langchain.prompts.prompt import PromptTemplate
 from langchain_openai import ChatOpenAI
-import os
 
 information = """
 Elon Reeve Musk FRS (/ˈiːlɒn/; born June 28, 1971) is a businessman and investor known for his key roles in space company SpaceX and automotive company Tesla, Inc. Other involvements include ownership of X Corp., the company that operates the social media platform X (formerly known as Twitter), and his role in the founding of The Boring Company, xAI, Neuralink and OpenAI. He is one of the wealthiest people in the world; as of August 2024, Forbes estimates his net worth to be US$241 billion.[3]
@@ -13,7 +15,6 @@ if __name__ == "__main__":
     print("Hello LangChain")
 
     load_dotenv()
-    
     print(os.environ["OPENAI_API_KEY"])
 
     summary_template = """

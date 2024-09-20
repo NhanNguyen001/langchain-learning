@@ -5,17 +5,13 @@ name = "pypi"
 
 [packages]
 langchain = "*"
-requests = "*"
 langchain-openai = "*"
-python-dotenv = "*"
-pandas = "*"
-pyspark = "*"
 langchain-community = "*"
 langchainhub = "*"
-flask = "*"
+python-dotenv = "*"
+requests = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.12"
-python_full_version = "3.12.4"

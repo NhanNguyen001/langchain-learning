@@ -1,2 +1,5 @@
 .env
 **/.env
+**/env/
+**/.venv/
+./ice_breakers/.env
